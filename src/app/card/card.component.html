@@ -10,7 +10,9 @@
     <mat-card-content>
       <p>U$S {{ product.price }}</p>
       <span>{{ product.typeSend }}</span>
-      <a routerLink="/descripcion/{{product.id}}">Ver Más</a>
+      <mat-card-footer>
+        <a routerLink="/descripcion/{{product.id}}">Ver Más</a>
+      </mat-card-footer>
     </mat-card-content>
   </mat-card>
 </section>

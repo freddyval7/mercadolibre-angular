@@ -22,84 +22,84 @@ export class DescripcionComponent {
 
   products = [
     {
-      title: 'Lampara Aro de Luz LED', 
+      title: 'Micro SD', 
       price: 16, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product1.webp',
+      img: 'https://http2.mlstatic.com/D_Q_NP_961585-MLV54467858752_032023-AB.webp',
       type: 'Hogar',
-      id: '1'
+      id: "1"
     },
     {
-      title: 'Alambre para Cerco Eléctrico', 
+      title: 'Cable 3 en 1 tipo C', 
       price: 35, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product2.webp',
+      img: 'https://http2.mlstatic.com/D_Q_NP_861033-MLV51738212586_092022-AB.webp',
       type: 'Hogar',
-      id: '2'
+      id: "2"
     },
     {
-      title: 'Lampara Led Panel 6w', 
+      title: 'Cargador doble tipo USB', 
       price: 3.79, 
       typeSend: 'Envío a pagar', 
-      img: '../../assets/product3.webp',
+      img: 'https://http2.mlstatic.com/D_Q_NP_820270-MLV54364744186_032023-AB.webp',
       type: 'Hogar',
-      id: '3'
+      id: "3"
     },
     {
-      title: 'Reloj Digital Original Honx', 
+      title: 'Aire Acondicionado', 
       price: 6, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product4.webp',
+      img: 'https://http2.mlstatic.com/D_NQ_NP_853667-MLV48208855930_112021-W.webp',
       type: 'Electrónica o Computación',
-      id: '4'
+      id: "4"
     },
     {
-      title: 'Smart Home Hub Xiomi Controller', 
+      title: 'Productos de Maquillaje', 
       price: 120, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product5.webp',
+      img: 'https://http2.mlstatic.com/D_NQ_843441-MLA45981503126_052021-C.webp',
       type: 'Electrónica o Computación',
-      id: '5'
+      id: "5"
     },
     {
-      title: 'Organizador Aéreo', 
+      title: 'Cámara de Seguridad', 
       price: 105, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product6.webp',
+      img: 'https://http2.mlstatic.com/D_Q_NP_636673-MLV44208841024_112020-AB.webp',
       type: 'Electrónica o Computación',
-      id:'6'
+      id: "6"
     },
     {
-      title: 'Aro de Luz para Selfies', 
+      title: 'Equipo deportivo', 
       price: 13, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product7.webp',
+      img: 'https://http2.mlstatic.com/D_NQ_851933-MLA47434677208_092021-C.webp',
       type: 'Hogar',
-      id: '7'
+      id: "7"
     },
     {
-      title: 'Detectora de Dólares', 
+      title: 'Laptop', 
       price: 204, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product8.webp',
+      img: 'https://http2.mlstatic.com/D_NQ_NP_617843-MLV54922561272_042023-W.webp',
       type: 'Electrónica o Computación',
-      id: '8'
+      id: "8"
     },
     {
-      title: 'Audifonos inalámbricos', 
+      title: 'Licuadora', 
       price: 27, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product9.webp',
+      img: 'https://http2.mlstatic.com/D_Q_NP_769928-MLV54343653442_032023-AB.webp',
       type: 'Electrónica o Computación',
-      id: '9'
+      id: "9"
     },
     {
-      title: 'Nintendo Switch Lite', 
+      title: 'Smart TV', 
       price: 319, 
       typeSend: 'Envío gratis', 
-      img: '../../assets/product10.webp',
+      img: 'https://http2.mlstatic.com/D_NQ_913002-MLA46366362161_062021-C.webp',
       type: 'Electrónica o Computación',
-      id: '10'
+      id: "10"
     },
   ]
 }
