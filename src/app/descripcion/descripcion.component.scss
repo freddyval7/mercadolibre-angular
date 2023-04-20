@@ -1,0 +1,99 @@
+article{
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-top: 1em;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    background-color: white;
+    height: calc(100vh - 115px);
+    & > div{
+        padding: 1em;
+        border-radius: 5px;
+    }
+}
+
+.product-img{
+    width: 150%;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    gap: .5em;
+}
+
+.product-title{
+    color: #191919;
+    font-weight: bold;
+    display: flex;
+    & svg{
+        margin-left: .5em;
+    }
+}
+
+.product-rating{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.product-price{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    & span{
+        font-size: .5em;
+    }
+}
+
+.product-send{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    & > div {
+        display: flex;
+        gap: 1em;
+        font-size: .9em;
+        & img {
+            width: 25px;
+            align-self: flex-start;
+        }
+        & div {
+            display: flex;
+            flex-direction: column;
+            gap: .3em;
+        }
+    }
+}
+
+#product-send-type{
+    color: #11AC5C;
+    font-size: 1.2em;
+}
+
+.btn-buy{
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.span-gray{
+    color: #A2A2A2;
+}
+
+.span-light-blue{
+    color: #668ecf;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}

@@ -1,0 +1,81 @@
+$font-black: #464646;
+$font-green: #17AE5F;
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1em;
+}
+
+.card{
+    max-width: 14em;
+    & p{
+        color: $font-black;
+        font-size: 1.5em;
+        font-weight: 500;
+        padding-top: 1em;
+        border-top: 1px solid #EAEAEA;
+        margin-bottom: 0;
+    }
+    & span{
+        color: $font-green;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    & a{
+        font-size: .8em;
+        text-align: center;
+        display: block;
+        color: white;
+        background-color: #3483FA;
+        transition: .5s ease;
+        font-weight: bold;
+        padding: 1em;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1em;
+        &:hover{
+            background-color: #1259C3;
+        }
+    }
+}
+
+.card img{
+    width: 100%;
+}
+
+.product-selected{
+    max-width: auto;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    & > div{
+        display: flex;
+    }
+    & h2{
+        font-size: 1.5em;
+    }
+    & h5{
+        color: $font-green;
+    }
+}
+
+.hogar{
+    & h2, p{
+        color: #FFA101;
+        font-style: italic;
+    }
+}
+
+.electronicaComputacion{
+    & h2, p{
+        color: #00B4B7;
+        font-style: oblique;
+    }
+}

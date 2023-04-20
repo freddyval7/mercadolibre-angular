@@ -1,0 +1,43 @@
+<header>
+    <app-header></app-header>
+  </header>
+  <main>
+    <mdb-carousel [controls]="true" [indicators]="true">
+      <mdb-carousel-item [interval]="5000">
+        <img
+          src="../assets/img1-carr.webp"
+          class="d-block w-100"
+          alt="img1"
+        />
+      </mdb-carousel-item>
+      <mdb-carousel-item [interval]="5000">
+        <img
+          src="../assets/img2-carr.webp"
+          class="d-block w-100"
+          alt="img2"
+        />
+      </mdb-carousel-item>
+      <mdb-carousel-item [interval]="5000">
+        <img
+          src="../assets/img3-carr.webp"
+          class="d-block w-100"
+          alt="img3"
+        />
+      </mdb-carousel-item>
+      <mdb-carousel-item [interval]="5000">
+        <img
+          src="../assets/img4-carr.webp"
+          class="d-block w-100"
+          alt="img4"
+        />
+      </mdb-carousel-item>
+    </mdb-carousel>
+    
+    <section class="main-products">
+      <div>
+        <h1>Ofertas de la semana</h1>
+        <a href="#">Ver más</a>
+      </div>
+      <app-card></app-card>
+    </section>
+  </main>

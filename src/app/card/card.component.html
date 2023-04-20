@@ -1,0 +1,30 @@
+<section class="products">
+  <mat-card
+    class="card"
+    *ngFor="let product of products"
+  >
+    <mat-card-header>
+      <mat-card-title>{{ product.title }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image alt="img product" [src]="product.img" />
+    <mat-card-content>
+      <p>U$S {{ product.price }}</p>
+      <span>{{ product.typeSend }}</span>
+      <a routerLink="/descripcion/{{product.id}}">Ver Más</a>
+    </mat-card-content>
+  </mat-card>
+</section>
+<ng-container *ngIf="productExist === true">
+  <div [style.font-size]="productActual.price >= 100 ? 'xx-large' : ''" class="product-selected" [ngClass]="{hogar: productActual.type === 'Hogar', electronicaComputacion: productActual.type === 'Electrónica o Computación'}">
+    <div>
+      <h1>Producto de
+         <h1 *ngIf="productActual.type === 'Hogar'">Hogar:</h1>
+         <h1 *ngIf="productActual.type === 'Electrónica o Computación'">Electrónica o Computación:</h1>
+      </h1>
+    </div>
+    <h2>{{ productActual.title }}</h2>
+    <img [src]="productActual.img" alt="productImg" />
+    <h5>{{ productActual.typeSend }}</h5>
+    <p>{{ productActual.price }}$</p>
+  </div>
+</ng-container>

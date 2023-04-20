@@ -1,0 +1,23 @@
+$font-light-blue: #336FC9;
+
+main{
+    background-color: #EBEBEB;
+}
+
+.main-products{
+    padding: 2em;
+    & > div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+        & h1{
+            font-weight: 100;
+            font-size: 1.5em;
+        }
+        & a{
+            margin-left: 1em;
+            color: $font-light-blue;
+            font-weight: bold;
+        }
+    }
+}
